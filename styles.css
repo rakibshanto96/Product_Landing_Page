@@ -1,5 +1,5 @@
 * {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 header {
@@ -27,8 +27,10 @@ main {
 
 #nav-bar ul {
   display: flex;
-  flex-flow: row no-wrap;
-  justify-content: space-between;
+  gap: 0.5rem;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: center;
 }
 
 #nav-bar ul > li {
@@ -41,7 +43,8 @@ main {
   color: black;
 }
 
-#start-email h2, form {
+#start-email h2,
+form {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -85,7 +88,8 @@ i {
   padding: 10px;
 }
 
-#features, #how-it-works {
+#features,
+#how-it-works {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,11 +104,11 @@ i {
 .level {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   font-weight: 600;
   background-color: #dcd4ff;
   height: 50px;
-  width: 300px
+  width: 300px;
 }
 
 .product {
@@ -121,12 +125,12 @@ i {
   font-size: 20px;
   border: 0;
   margin-top: auto;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 #pricing ol {
   list-style-type: none;
-  margin-left: -35px
+  margin-left: -35px;
 }
 
 #pricing h2 {
@@ -142,36 +146,39 @@ i {
   gap: 1.5em;
 }
 
-#tenor, #bass, #valve {
+#tenor,
+#bass,
+#valve {
   width: 300px;
   border: 1px solid black;
 }
 
 #footer {
+  margin-top: 50px;
+  align-items: normal;
   background-color: #fcb603;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: -20px;
-  margin-left: -15px;
   height: 81px;
-  padding-right: 15px;
-
+  width: 100%;
+  left: 0;
+  position: absolute;
+  text-align: right;
+  align-items: flex-end;
 }
 
 #footer ul {
+  width: 220px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   gap: 1em;
   font-weight: 600;
   font-size: 18px;
 }
 
 #footer span {
+  padding-right: 15px;
   margin-bottom: 20px;
   font-size: 14px;
 }
